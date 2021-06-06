@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'python3' }
+    agent { label'python3' }
     stages {
         stage("RunTest") {
             steps {
